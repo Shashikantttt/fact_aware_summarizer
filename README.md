@@ -182,10 +182,7 @@ Run the heavy BART & NLI models on Google Colab's free NVIDIA T4 GPU for **~15x 
 ### Step 2: Copy the Public Tunnel URL
 Once the models load, the final cell will print:
 ```text
-=================================================================
-🎉 COLAB GPU BACKEND IS ONLINE!
-🔗 Public URL:  https://xxxx.ngrok-free.app
-=================================================================
+
 ```
 Copy that URL.
 
