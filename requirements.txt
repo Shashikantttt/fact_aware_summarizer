@@ -1,0 +1,22 @@
+# Complete Requirements: Core Web UI + Deep Learning Stack
+# Install with: pip install -r requirements.txt
+
+# Core Application & Preprocessing
+numpy>=1.21.0
+streamlit>=1.25.0
+pymupdf>=1.22.0
+pandas>=1.5.0
+scipy>=1.10.0
+
+# Deep Learning & Transformers Stack
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+sentencepiece>=0.1.99
+accelerate>=0.20.0
+
+# Evaluation & Benchmark Metrics
+rouge-score>=0.1.2
+bert-score>=0.3.13
+datasets>=2.12.0
+evaluate>=0.4.0

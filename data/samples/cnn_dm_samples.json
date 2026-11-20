@@ -1,0 +1,17 @@
+[
+  {
+    "id": "cnn_sample_01",
+    "article": "The Federal Reserve raised its benchmark interest rate by a quarter of a percentage point on Wednesday, continuing its campaign to tame inflation. The decision brings the central bank's target federal funds rate to a range of 5 percent to 5.25 percent, the highest level in sixteen years. Fed Chair Jerome Powell signaled that the committee might pause future rate increases, stating that policy is approaching the level required to bring inflation back down to the target rate of 2 percent. However, Powell emphasized that officials have not made a definitive decision to halt increases and will monitor incoming economic data closely before the next meeting in June.",
+    "reference_summary": "The Federal Reserve raised interest rates by 25 basis points to a 16-year high of 5.0 to 5.25 percent. Fed Chair Jerome Powell signaled a potential pause in rate hikes while maintaining that future decisions depend on economic data."
+  },
+  {
+    "id": "cnn_sample_02",
+    "article": "NASA announced on Tuesday that the James Webb Space Telescope has detected water vapor in the inner disk of the planetary system PDS 70, located 370 light-years from Earth. PDS 70 is known to host two infant gas giant planets. The discovery marks the first time that water has been identified in the terrestrial region of a protoplanetary disk where rocky, Earth-like planets typically form. Astronomers used the telescope's Mid-Infrared Instrument (MIRI) to detect the chemical signatures. While water vapor has previously been found in planet-forming disks, scientists were uncertain whether water could survive harsh ultraviolet radiation from young stars.",
+    "reference_summary": "NASA's James Webb Space Telescope found water vapor in the planet-forming disk of the PDS 70 system. The finding provides evidence that rocky planets forming close to their stars could possess water early in their development."
+  },
+  {
+    "id": "cnn_sample_03",
+    "article": "Renewable energy accounted for over 30 percent of global electricity generation for the first time in 2023, according to a report published by the energy think tank Ember on Wednesday. Solar and wind power expanded rapidly, with solar leading as the fastest-growing source of new electricity generation for the nineteenth consecutive year. The report analyzed data from 80 countries representing 92 percent of global electricity demand. Despite the clean energy surge, global fossil fuel emissions from power generation grew slightly due to severe droughts that reduced hydroelectric output in China and other major economies.",
+    "reference_summary": "Renewables supplied a record 30 percent of the world's electricity in 2023 driven by solar and wind growth, according to think tank Ember. However, fossil fuel emissions rose slightly because droughts hampered hydroelectric generation."
+  }
+]

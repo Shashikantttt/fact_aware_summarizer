@@ -1,0 +1,11 @@
+# AI & Deep Learning Stack Requirements
+# Install with: pip install -r requirements-ai.txt
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+sentencepiece>=0.1.99
+accelerate>=0.20.0
+rouge-score>=0.1.2
+bert-score>=0.3.13
+datasets>=2.12.0
+evaluate>=0.4.0

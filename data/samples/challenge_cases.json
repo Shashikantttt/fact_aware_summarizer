@@ -1,0 +1,66 @@
+[
+  {
+    "id": "challenge_num_flip",
+    "type": "numerical_shift",
+    "description": "The abstractive summary alters a key quantity or percentage.",
+    "source_sentence": "Electric vehicle sales reached 14 million units globally in 2023, representing an increase of 35 percent compared to 2022.",
+    "claims": [
+      {
+        "claim": "Electric vehicle sales grew by 35 percent in 2023 to reach 14 million units.",
+        "expected_label": "entailment",
+        "explanation": "Directly supported by the source text."
+      },
+      {
+        "claim": "Electric vehicle sales decreased by 35 percent in 2023.",
+        "expected_label": "contradiction",
+        "explanation": "Contradicts the source fact (grew vs decreased)."
+      },
+      {
+        "claim": "Electric vehicle sales reached 40 million units globally in 2023.",
+        "expected_label": "contradiction",
+        "explanation": "Numerical hallucination: changed 14 million to 40 million."
+      }
+    ]
+  },
+  {
+    "id": "challenge_negation",
+    "type": "negation_flip",
+    "description": "The summary reverses a polarity or negation statement.",
+    "source_sentence": "The supreme court declined to hear the appeal, allowing the lower court's ruling against the merger to remain in effect.",
+    "claims": [
+      {
+        "claim": "The supreme court refused to take up the case on the corporate merger.",
+        "expected_label": "entailment",
+        "explanation": "Paraphrase of 'declined to hear the appeal'."
+      },
+      {
+        "claim": "The supreme court agreed to review the merger case.",
+        "expected_label": "contradiction",
+        "explanation": "Reverses the negative action ('declined' to 'agreed')."
+      },
+      {
+        "claim": "The company completed the merger without any regulatory challenges.",
+        "expected_label": "contradiction",
+        "explanation": "Contradicts the ruling against the merger."
+      }
+    ]
+  },
+  {
+    "id": "challenge_unsupported_entity",
+    "type": "extrinsic_hallucination",
+    "description": "The summary introduces an unmentioned entity or speculative claim.",
+    "source_sentence": "Researchers at Stanford University developed a new titanium alloy that remains ductile at cryogenic temperatures.",
+    "claims": [
+      {
+        "claim": "Stanford engineers created a titanium alloy capable of maintaining ductility under extreme cold.",
+        "expected_label": "entailment",
+        "explanation": "Accurate paraphrase of the original research finding."
+      },
+      {
+        "claim": "The new alloy is already being manufactured by Boeing for commercial aircraft.",
+        "expected_label": "neutral",
+        "explanation": "Extrinsic hallucination: the source says nothing about Boeing or commercial aircraft."
+      }
+    ]
+  }
+]
